@@ -3,7 +3,7 @@ import inspect
 import pickle
 
 from django.conf import settings
-from django.utils import importlib
+import importlib
 
 try:
     from hashlib import sha1
